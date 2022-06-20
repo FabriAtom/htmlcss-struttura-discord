@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+.container{
+    background-color: lightblue;
+    max-width: 1906px;
+    height: 81px;
+
+}
+
+.contenitore{
+    max-width: 1165px;
+    height: 34px;
+    background-color: yellow;
+}
+
+
+.prima-sezione{
+    max-width:1906px;
+    height: 494px;
+    background-color: violet;
+}
+
+.sezione-rettangolo{
+    max-width: 901px;
+    height: 387px;
+    background-color: pink;
+}
+
+.sezione-row{
+    max-width: 1192px;
+    height: 522px;
+
+}
