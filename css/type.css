@@ -3,9 +3,11 @@
     margin: auto;
     padding: 0;
 }
+
+
 .container{
     background-color: lightblue;
-    max-width: 1906px;
+    max-width: 100%;
     height: 81px;
 
 }
@@ -14,6 +16,23 @@
     max-width: 1165px;
     height: 34px;
     background-color: yellow;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    
+}
+
+.link{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    width: 25%;
+   text-align: right;
+
 }
 
 
@@ -29,8 +48,104 @@
     background-color: pink;
 }
 
-.sezione-row{
-    max-width: 1192px;
-    height: 522px;
+.seconda-sezione{
+   width: 100%;
+   padding: 40px 0;
 
+}
+
+.padre{
+    max-width: 1200px;
+    display: flex;
+}
+
+.sezione-sessanta{
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+.sezione-quaranta{
+    width: 40%;
+    height: 500px;
+    background-color: pink;
+}
+
+.terza-sezione{
+    width: 100%;
+   padding: 40px 0;
+   background-color: lightgrey;
+   display: row-reverse;********
+}
+
+
+
+
+.quarta-sezione{
+    width: 100%;
+    background-color: gray;
+
+
+}
+
+.quadrato-100{
+    width: 1200px;
+    height: 868px;
+    background-color: green;
+}
+
+
+
+
+.ultima-sezione{
+    width: 100%;
+    background-color: grey;
+    
+}
+
+
+.quad-col{
+    max-width:1200px;
+    height: 553px;
+    background-color: aqua;
+    display: flex;
+}
+
+
+.colonna-doppia{
+    width: 30%;
+    height: 536px;
+    background-color: pink;
+}
+
+.colonna-singola{
+    width: 17,5%;
+    height: 536px;
+    background-color: yellowgreen;
+}
+
+
+.footer{
+    width: 100%;
+    height: 89px;
+    background-color: grey;
+}
+
+.foot{
+    width: 1200px;
+    height: 58px;
+    background-color: greenyellow;
+}
+
+#log{
+    text-align: start;
+}
+
+#bott{
+    text-align: end;
+}
+
+.white{
+    color: white;
 }
