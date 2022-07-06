@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     border: 1px solid black;
 }
@@ -64,14 +64,14 @@
     display: flex;
 }
 
-.sezione-sessanta{
+.col-sessanta{
     width: 60%;
     height: 500px;
     background-color: aqua;
 }
 
 
-.sezione-quaranta{
+.col-quaranta{
     width: 40%;
     height: 500px;
     background-color: pink;
@@ -81,9 +81,25 @@
     width: 100%;
    padding: 40px 0;
    background-color: lightgrey;
-   display: row-reverse;********
+   flex-direction: row-reverse;
+
 }
 
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.section-with-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-col-reverse{
+    flex-direction: row-reverse;
+}
 
 
 
@@ -145,11 +161,11 @@
 }
 
 #log{
-    text-align: start;
+    /* text-align: start; */
 }
 
 #bott{
-    text-align: end;
+    /* text-align: end; */
 }
 
 .white{
